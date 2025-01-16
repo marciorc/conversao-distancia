@@ -1,7 +1,7 @@
 # conversao-distancia
 
 ## Aula 1 - Docker
-### comandos importantes
+### Comandos Importantes
 - `docker build -t conversao-distancia -f Dockerfile .`  
 Cria a imagem a partir da receita descrita no Dockerfile  
 
@@ -14,7 +14,7 @@ Executa o container passando os seguintes parametros
 Limpa as imagens residuais
 
 ## Aula 2 - Kubernetes
-### comandos importantes
+### Comandos Importantes
 - `k3d cluster create {{meucluster}} --servers 3 --agents 3`
 Cria um cluster com servers e agents
     - `k3d cluster create {{meucluster}} --servers 1 --agents 2 -p "8080:30000@loadbalancer"`
@@ -74,3 +74,27 @@ Retorna a versão anterior
 - **service**: serve para expor a aplicação presente nos pods.
 
 Toda vez que há uma atualização da aplicação, é gerado um novo **replicaset**.
+
+## Aula 3 - AWS
+### Comandos Importantes
+- `aws configure`
+Comando para configurar o access key e secret key do user.
+
+- `aws eks update-kubeconfig --name {{eks-name}}`
+
+### Anotações
+
+
+
+## Aula 4 - Github Actions
+### Comandos Importantes
+
+### Anotações
+
+
+
+
+## Aula 5 - Prometheus e Grafana
+### Comandos Importantes
+
+### Anotações
